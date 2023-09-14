@@ -28,34 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainPageForm));
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainPageForm));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            this.Remove = new Guna.UI2.WinForms.Guna2Button();
+            this.RemoveBtn = new Guna.UI2.WinForms.Guna2Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.Edit = new Guna.UI2.WinForms.Guna2Button();
+            this.EditBtn = new Guna.UI2.WinForms.Guna2Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.Add = new Guna.UI2.WinForms.Guna2Button();
+            this.AddBtn = new Guna.UI2.WinForms.Guna2Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FullName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Gender = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Phone = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Address = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PrivateNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Mail = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Search = new Guna.UI2.WinForms.Guna2TextBox();
+            this.SearchBtn = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -63,22 +59,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // Remove
+            // RemoveBtn
             // 
-            this.Remove.CustomizableEdges = customizableEdges9;
-            this.Remove.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.Remove.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.Remove.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.Remove.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.Remove.FillColor = System.Drawing.Color.White;
-            this.Remove.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.Remove.ForeColor = System.Drawing.Color.Black;
-            this.Remove.Location = new System.Drawing.Point(577, 147);
-            this.Remove.Name = "Remove";
-            this.Remove.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            this.Remove.Size = new System.Drawing.Size(89, 42);
-            this.Remove.TabIndex = 15;
-            this.Remove.Text = "წაშლა";
+            this.RemoveBtn.CustomizableEdges = customizableEdges1;
+            this.RemoveBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.RemoveBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.RemoveBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.RemoveBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.RemoveBtn.FillColor = System.Drawing.Color.White;
+            this.RemoveBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.RemoveBtn.ForeColor = System.Drawing.Color.Black;
+            this.RemoveBtn.Location = new System.Drawing.Point(577, 147);
+            this.RemoveBtn.Name = "RemoveBtn";
+            this.RemoveBtn.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            this.RemoveBtn.Size = new System.Drawing.Size(89, 42);
+            this.RemoveBtn.TabIndex = 15;
+            this.RemoveBtn.Text = "წაშლა";
+            this.RemoveBtn.Click += new System.EventHandler(this.RemoveBtn_Click);
             // 
             // pictureBox4
             // 
@@ -90,22 +87,23 @@
             this.pictureBox4.TabIndex = 14;
             this.pictureBox4.TabStop = false;
             // 
-            // Edit
+            // EditBtn
             // 
-            this.Edit.CustomizableEdges = customizableEdges11;
-            this.Edit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.Edit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.Edit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.Edit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.Edit.FillColor = System.Drawing.Color.White;
-            this.Edit.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.Edit.ForeColor = System.Drawing.Color.Black;
-            this.Edit.Location = new System.Drawing.Point(353, 147);
-            this.Edit.Name = "Edit";
-            this.Edit.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            this.Edit.Size = new System.Drawing.Size(116, 42);
-            this.Edit.TabIndex = 13;
-            this.Edit.Text = "რედაქტირება";
+            this.EditBtn.CustomizableEdges = customizableEdges3;
+            this.EditBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.EditBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.EditBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.EditBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.EditBtn.FillColor = System.Drawing.Color.White;
+            this.EditBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.EditBtn.ForeColor = System.Drawing.Color.Black;
+            this.EditBtn.Location = new System.Drawing.Point(353, 147);
+            this.EditBtn.Name = "EditBtn";
+            this.EditBtn.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            this.EditBtn.Size = new System.Drawing.Size(116, 42);
+            this.EditBtn.TabIndex = 13;
+            this.EditBtn.Text = "რედაქტირება";
+            this.EditBtn.Click += new System.EventHandler(this.EditBtn_Click);
             // 
             // pictureBox3
             // 
@@ -117,23 +115,23 @@
             this.pictureBox3.TabIndex = 12;
             this.pictureBox3.TabStop = false;
             // 
-            // Add
+            // AddBtn
             // 
-            this.Add.CustomizableEdges = customizableEdges13;
-            this.Add.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.Add.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.Add.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.Add.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.Add.FillColor = System.Drawing.Color.White;
-            this.Add.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.Add.ForeColor = System.Drawing.Color.Black;
-            this.Add.Location = new System.Drawing.Point(146, 147);
-            this.Add.Margin = new System.Windows.Forms.Padding(4);
-            this.Add.Name = "Add";
-            this.Add.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            this.Add.Size = new System.Drawing.Size(88, 42);
-            this.Add.TabIndex = 11;
-            this.Add.Text = "დამატება";
+            this.AddBtn.CustomizableEdges = customizableEdges5;
+            this.AddBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.AddBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.AddBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.AddBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.AddBtn.FillColor = System.Drawing.Color.White;
+            this.AddBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.AddBtn.ForeColor = System.Drawing.Color.Black;
+            this.AddBtn.Location = new System.Drawing.Point(146, 147);
+            this.AddBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.AddBtn.Name = "AddBtn";
+            this.AddBtn.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            this.AddBtn.Size = new System.Drawing.Size(88, 42);
+            this.AddBtn.TabIndex = 11;
+            this.AddBtn.Text = "დამატება";
             // 
             // pictureBox2
             // 
@@ -148,42 +146,34 @@
             // 
             // guna2DataGridView1
             // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(248)))), ((int)(((byte)(249)))));
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(248)))), ((int)(((byte)(249)))));
+            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.guna2DataGridView1.BackgroundColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.guna2DataGridView1.ColumnHeadersHeight = 40;
             this.guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.guna2DataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ID,
-            this.FullName,
-            this.Gender,
-            this.Phone,
-            this.Address,
-            this.PrivateNumber,
-            this.Mail});
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(241)))), ((int)(((byte)(243)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(241)))), ((int)(((byte)(243)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(247)))));
             this.guna2DataGridView1.Location = new System.Drawing.Point(49, 227);
             this.guna2DataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2DataGridView1.Name = "guna2DataGridView1";
             this.guna2DataGridView1.RowHeadersVisible = false;
             this.guna2DataGridView1.RowTemplate.Height = 25;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(1646, 812);
+            this.guna2DataGridView1.Size = new System.Drawing.Size(1661, 812);
             this.guna2DataGridView1.TabIndex = 9;
             this.guna2DataGridView1.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Light;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(248)))), ((int)(((byte)(249)))));
@@ -207,41 +197,7 @@
             this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 25;
             this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(241)))), ((int)(((byte)(243)))));
             this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
-            // 
-            // ID
-            // 
-            this.ID.HeaderText = "ID";
-            this.ID.Name = "ID";
-            // 
-            // FullName
-            // 
-            this.FullName.HeaderText = "გვარი სახელი";
-            this.FullName.Name = "FullName";
-            // 
-            // Gender
-            // 
-            this.Gender.HeaderText = "სქესი";
-            this.Gender.Name = "Gender";
-            // 
-            // Phone
-            // 
-            this.Phone.HeaderText = "მობ ნომერი";
-            this.Phone.Name = "Phone";
-            // 
-            // Address
-            // 
-            this.Address.HeaderText = "მისამართი";
-            this.Address.Name = "Address";
-            // 
-            // PrivateNumber
-            // 
-            this.PrivateNumber.HeaderText = "პირადი ნომერი ";
-            this.PrivateNumber.Name = "PrivateNumber";
-            // 
-            // Mail
-            // 
-            this.Mail.HeaderText = "მეილი";
-            this.Mail.Name = "Mail";
+            this.guna2DataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.guna2DataGridView1_CellContentClick);
             // 
             // pictureBox1
             // 
@@ -259,7 +215,7 @@
             this.Search.AutoRoundedCorners = true;
             this.Search.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.Search.BorderRadius = 17;
-            this.Search.CustomizableEdges = customizableEdges15;
+            this.Search.CustomizableEdges = customizableEdges7;
             this.Search.DefaultText = "";
             this.Search.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.Search.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -275,9 +231,28 @@
             this.Search.PasswordChar = '\0';
             this.Search.PlaceholderText = "ძებნა";
             this.Search.SelectedText = "";
-            this.Search.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            this.Search.ShadowDecoration.CustomizableEdges = customizableEdges8;
             this.Search.Size = new System.Drawing.Size(504, 36);
             this.Search.TabIndex = 16;
+            // 
+            // SearchBtn
+            // 
+            this.SearchBtn.AutoRoundedCorners = true;
+            this.SearchBtn.BorderRadius = 17;
+            this.SearchBtn.CustomizableEdges = customizableEdges9;
+            this.SearchBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.SearchBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.SearchBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.SearchBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.SearchBtn.FillColor = System.Drawing.Color.DeepSkyBlue;
+            this.SearchBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.SearchBtn.ForeColor = System.Drawing.Color.White;
+            this.SearchBtn.Location = new System.Drawing.Point(873, 46);
+            this.SearchBtn.Name = "SearchBtn";
+            this.SearchBtn.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            this.SearchBtn.Size = new System.Drawing.Size(97, 36);
+            this.SearchBtn.TabIndex = 17;
+            this.SearchBtn.Text = "ძებნა";
             // 
             // MainPageForm
             // 
@@ -285,12 +260,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1749, 1073);
+            this.Controls.Add(this.SearchBtn);
             this.Controls.Add(this.Search);
-            this.Controls.Add(this.Remove);
+            this.Controls.Add(this.RemoveBtn);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.Edit);
+            this.Controls.Add(this.EditBtn);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.Add);
+            this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.guna2DataGridView1);
             this.Controls.Add(this.pictureBox1);
@@ -309,21 +285,15 @@
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2Button Remove;
+        private Guna.UI2.WinForms.Guna2Button RemoveBtn;
         private PictureBox pictureBox4;
-        private Guna.UI2.WinForms.Guna2Button Edit;
+        private Guna.UI2.WinForms.Guna2Button EditBtn;
         private PictureBox pictureBox3;
-        private Guna.UI2.WinForms.Guna2Button Add;
+        private Guna.UI2.WinForms.Guna2Button AddBtn;
         private PictureBox pictureBox2;
         private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
         private PictureBox pictureBox1;
-        private DataGridViewTextBoxColumn ID;
-        private DataGridViewTextBoxColumn FullName;
-        private DataGridViewTextBoxColumn Gender;
-        private DataGridViewTextBoxColumn Phone;
-        private DataGridViewTextBoxColumn Address;
-        private DataGridViewTextBoxColumn PrivateNumber;
-        private DataGridViewTextBoxColumn Mail;
         private Guna.UI2.WinForms.Guna2TextBox Search;
+        private Guna.UI2.WinForms.Guna2Button SearchBtn;
     }
 }
