@@ -1,4 +1,7 @@
-﻿namespace MedsofAppMVP.Model.entityModels
+﻿using MedSoftAppRepo.Infrastructure.Validators;
+using System.ComponentModel.DataAnnotations;
+
+namespace MedsofAppMVP.Model.entityModels
 {
     public class UpdatePatientModel
     {
@@ -10,19 +13,20 @@
         private string privateNumber;
         private string mail;
 
-
+        [Required]
         public string Fullname
         {
             get { return fullName; }
             set { fullName = value; }
         }
 
+        [Required]
         public DateTime Dob
         {
             get { return dob; }
             set { dob = value; }
         }
-
+        [Required]
         public string Gender
         {
             get { return gender; }
@@ -45,6 +49,7 @@
             get { return privateNumber; }
             set { privateNumber = value; }
         }
+        [EmailValidator(ErrorMessage = "მოცემული მეილის ფორმატი არასწორია გთხოვთ გამოასწოროთ")]
         public string Mail
         {
             get { return mail; }

@@ -21,18 +21,13 @@ namespace AddPatientePage
         {
             DataContext con = new DataContext();
             ApplicationConfiguration.Initialize();
-
-            //initialize view
             IPatientView View = new MainPageForm();
             IAddPatientView AddView = new AddPatientView();
-
-            //initialize repos
             AutoMapper.IMapper mapper = new MapperConfiguration(cfg => cfg.AddProfile<MappingInitializer>()).CreateMapper();
             string sqlString = ConfigurationManager.ConnectionStrings["SqlConString"].ConnectionString;
             IPatientModelRepo repository = new PatientModelRepo(con, mapper);
             IGenericRepository<Patient> genericRepo = new GenericRepository<Patient>(con);
-
-            new PatientPresenter(View, repository)/*, AddView)*/;
+            new PatientPresenter(View, repository);
 
             try
             {

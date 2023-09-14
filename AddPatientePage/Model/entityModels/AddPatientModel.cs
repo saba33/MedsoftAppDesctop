@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using MedSoftAppRepo.Infrastructure.Validators;
+using System.ComponentModel.DataAnnotations;
 
 namespace MedsofAppMVP.Model.entityModels
 {
@@ -48,6 +49,7 @@ namespace MedsofAppMVP.Model.entityModels
             get { return privateNumber; }
             set { privateNumber = value; }
         }
+        [EmailValidator(ErrorMessage = "მოცემული მეილის ფორმატი არასწორია გთხოვთ გამოასწოროთ")]
         public string Mail
         {
             get { return mail; }

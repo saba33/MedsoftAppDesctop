@@ -2,6 +2,7 @@
 using MedSoftAppRepo;
 using MedSoftAppRepo.Model;
 using MedSoftAppRepo.Reposotory;
+
 namespace MedsofAppMVP
 {
     public partial class AddPatientView : Form, IAddPatientView
@@ -41,7 +42,7 @@ namespace MedsofAppMVP
 
         private void SaveBtn_Click(object sender, EventArgs e)
         {
-            var result = MessageBox.Show("ნამდვილად გსურთ პაციენტის რედაქტირება ? ",
+            var result = MessageBox.Show("ნამდვილად გსურთ პაციენტის დამატება ?",
                    MessageBoxButtons.YesNo.ToString(), MessageBoxButtons.OKCancel);
             repository.Add(new Patient
             {
@@ -53,7 +54,7 @@ namespace MedsofAppMVP
                 Phone = Phone.Text,
                 PrivateNumber = PrivateNumber.Text,
             });
-            MessageBox.Show($"პაციენტი პირადი ნომრით {PrivateNumber.Text} ბაზაში");
+            MessageBox.Show($"პაციენტი პირადი ნომრით {PrivateNumber.Text} წარმატებით დაემატა ბაზაში");
         }
     }
 }
