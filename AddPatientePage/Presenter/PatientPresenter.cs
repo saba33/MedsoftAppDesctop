@@ -13,7 +13,7 @@ namespace MedsofAppMVP.Presenter
         private IPatientModelRepo repo;
         private IAddPatientView addPatientView = new AddPatientView();
         private BindingSource patientsBindingSource;
-        private IEnumerable<PatientModel> patientList;
+        private IEnumerable<PatientDisplayModel> patientList;
         private IEnumerable<Patient> Patients;
         AutoMapper.IMapper mapper = new MapperConfiguration(cfg => cfg.AddProfile<MappingInitializer>()).CreateMapper();
         public PatientPresenter(IPatientView view, IPatientModelRepo repo)
@@ -31,7 +31,6 @@ namespace MedsofAppMVP.Presenter
             LoadAllPatientList();
             this.view.Show();
         }
-
         public void LoadAllPatientList()
         {
             Patients = repo.GetAll().Result;
@@ -45,13 +44,13 @@ namespace MedsofAppMVP.Presenter
             if (emptyValue == false)
             {
                 Patients = repo.GetByValue(this.view.SearchValue).Result;
-                patientList = mapper.Map<IEnumerable<PatientModel>>(Patients);
+                patientList = mapper.Map<IEnumerable<PatientDisplayModel>>(Patients);
             }
 
             else
             {
                 var list = repo.GetAll().Result;
-                patientList = mapper.Map<IEnumerable<PatientModel>>(list);
+                patientList = mapper.Map<IEnumerable<PatientDisplayModel>>(list);
             }
             patientsBindingSource.DataSource = patientList;
         }

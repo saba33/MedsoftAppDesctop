@@ -68,7 +68,6 @@ namespace MedSoftAppRepo.Reposotory
             await _dbSet.AddRangeAsync(entities);
             _dbContext.SaveChanges();
         }
-        //dbset contextshi unda ikos da aq marto context unda gamoidzaxo ai context aq maqvs 
         public void Update(T entity)
         {
             try

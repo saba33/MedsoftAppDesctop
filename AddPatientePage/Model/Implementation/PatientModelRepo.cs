@@ -47,7 +47,6 @@ namespace MedsofAppMVP.Model.Implementation
         public async Task<IEnumerable<Patient>> GetByValue(string value)
         {
             var result = await this.Search(value);
-            //var patientToDisplay = _mapper.Map<Patient>(result);
             return (IEnumerable<Patient>)result;
         }
 
